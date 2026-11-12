@@ -1,0 +1,10 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform lock file은 커밋 권장
+!.terraform.lock.hcl
